@@ -1,0 +1,44 @@
+.header {
+	display: flex;
+	flex-direction: row;
+	z-index: 1;
+	font-family: Roboto, Arial;
+}
+.left-sec,
+.mid-sec,
+.right-sec {
+	display: flex;
+	flex-direction: row;
+	flex: 1;
+	/* justify-content: start; */
+	align-items: center;
+}
+
+.left-sec {
+	justify-content: start;
+}
+.left-sec p {
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.mid-sec {
+	justify-content: space-between;
+}
+.mid-sec p {
+	font-size: 12px;
+}
+.mid-sec p:hover {
+	text-decoration: underline;
+}
+
+.right-sec {
+	justify-content: end;
+}
+.right-sec button {
+	background-color: black;
+	color: white;
+	border-radius: 28px;
+	padding: 2px 14px;
+	height: 30px;
+}
