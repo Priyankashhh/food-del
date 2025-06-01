@@ -1,0 +1,61 @@
+.order-card {
+	display: grid;
+	grid-template-rows: 1fr 1fr;
+	grid-template-columns: 1fr 1fr;
+	gap: 10px;
+}
+.order-sec {
+	display: flex;
+	flex-direction: row;
+	flex: 1;
+	background-color: orangered;
+	border-radius: 15px;
+	justify-content: center;
+	align-items: start;
+}
+.tag {
+	font-size: 10px;
+	word-spacing: 2px;
+	border: 1px solid white;
+	padding: 4px 6px;
+	border-radius: 12px;
+	width: fit-content;
+	margin: 20px 0px;
+}
+
+.texts {
+	font-size: 16px;
+	font-style: Arial;
+	color: white;
+	margin-left: 20px;
+}
+.order-button {
+	background-color: black;
+	color: white;
+	padding: 8px 16px;
+	border: none;
+	margin-top: 0px;
+	margin-bottom: 20px;
+	border-radius: 32px;
+}
+.quote {
+	margin-top: 0px;
+	margin-bottom: 30px;
+	font-size: 48px;
+	word-spacing: 100vw;
+}
+.direct {
+	display: flex;
+	flex-direction: row;
+	padding-top: 20px;
+	padding-right: 20px;
+}
+
+.arrow {
+	font-size: 25px;
+	height: 40px;
+	width: 40px;
+	border-radius: 40px;
+	border: none;
+	background-color: white;
+}
