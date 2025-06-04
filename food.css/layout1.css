@@ -1,18 +1,31 @@
 .order-card {
 	display: grid;
-	grid-template-rows: 1fr 1fr;
-	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 310px 150px;
+	grid-template-columns: 2fr 1fr;
 	gap: 10px;
 }
 .order-sec {
+	border-radius: 15px;
+	overflow: hidden;
+}
+.order-tile1 {
 	display: flex;
 	flex-direction: row;
 	flex: 1;
-	background-color: orangered;
-	border-radius: 15px;
+	background-color: #330072;
 	justify-content: center;
 	align-items: start;
 }
+
+.order-tile2 {
+	width: 100%;
+	object-fit: contain;
+	img {
+		width: 100%;
+		height: 100%;
+	}
+}
+
 .tag {
 	font-size: 10px;
 	word-spacing: 2px;
@@ -38,7 +51,7 @@
 	margin-bottom: 20px;
 	border-radius: 32px;
 }
-.quote {
+.quote1 {
 	margin-top: 0px;
 	margin-bottom: 30px;
 	font-size: 48px;
@@ -58,4 +71,103 @@
 	border-radius: 40px;
 	border: none;
 	background-color: white;
+}
+.order-place {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	margin-right: 20px;
+}
+.buy-button {
+	background-color: black;
+	color: white;
+	padding: 8px 16px;
+	border: none;
+	margin-top: 0px;
+
+	border-radius: 32px;
+}
+.food-buy {
+	margin-left: 0px;
+	width: 350px;
+	height: 100%;
+
+	object-fit: cover;
+}
+.content3 {
+	padding: 20px;
+	font-size: 16px;
+	height: 100%;
+	width: 100%;
+	font-style: Arial;
+	color: white;
+}
+.quote2 {
+	margin-top: 20px;
+	margin-bottom: 10px;
+	font-size: 28px;
+}
+.order-tile3 {
+	object-fit: contain;
+	display: flex;
+	flex-direction: row;
+	flex: 1;
+	background-color: #330072;
+	justify-content: start;
+	align-items: start;
+}
+.order-tile4 {
+	background-color: #330072;
+	display: grid;
+}
+.content4 {
+	/* margin: 0; */
+	padding: 0px 10px 10px;
+	font-size: 16px;
+	/* height: 100%;
+	width: 100%; */
+	font-style: Arial;
+	color: white;
+}
+.line1,
+.line2,
+.line3 {
+	margin: 6px;
+}
+.line1 {
+	font-weight: bold;
+	font-size: 23px;
+	word-spacing: 6px;
+}
+.line2 {
+	font-size: 12px;
+}
+.line3 {
+	font-size: 12px;
+	font-weight: bold;
+	display: inline-block;
+}
+.star {
+	height: 10px;
+	width: 10px;
+}
+.rating {
+	display: flex;
+	align-items: center;
+}
+.icons {
+	padding: 10px;
+	display: flex;
+	flex-direction: row;
+	gap: 5px;
+	margin-bottom: 0px;
+}
+.icons img {
+	height: 30px;
+	width: 30px;
+	border-radius: 60px;
+	object-fit: contain;
+	background-color: white;
+	padding: 5px;
 }
