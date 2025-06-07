@@ -1,9 +1,10 @@
 .recipes {
 	display: grid;
-	background-color: yellow;
+	background-color: rgb(210, 166, 181);
 	margin-top: 40px;
 	/* grid-template-columns: 1fr 1fr; */
 	border-radius: 15px;
+	padding-bottom: 20px;
 }
 .header1 {
 	display: flex;
