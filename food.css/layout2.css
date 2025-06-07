@@ -54,25 +54,27 @@
 	grid-template-columns: 1fr 0.5fr;
 	gap: 20px;
 	padding: 20px;
+	height: 80px;
 }
 .pasta2-3 {
 	display: flex;
 	flex-direction: column;
 	gap: 20px;
+	height: 80px;
 	/* flex: 1; */
 }
 
 .pasta1 {
-	height: 100%;
-	width: 100%;
+	height: 270px;
+	width: 320px;
 
 	object-fit: cover;
 	border-radius: 30px;
 }
 .pasta2,
 .pasta3 {
-	height: 270px;
-	width: 100%;
+	height: 125px;
+	width: 150px;
 	object-fit: cover;
 	border-radius: 30px;
 }
