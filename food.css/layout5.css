@@ -1,0 +1,45 @@
+.customer-say {
+	margin-top: 20px;
+	background-color: lavender;
+	padding: 20px;
+	border-radius: 28px;
+}
+.tittle {
+	text-align: center;
+	font-size: 25px;
+	font-weight: bold;
+}
+.customer-profile {
+	height: 150px;
+	width: 120px;
+}
+.customer-review {
+	display: flex;
+	gap: 20px;
+}
+
+.review p {
+	font-size: 16px;
+	line-height: 22px;
+}
+.name {
+	display: flex;
+	justify-content: space-between;
+	align-items: end;
+	/* pad-top: 10 */
+}
+
+.my-name {
+	margin-bottom: auto;
+	font-weight: bold;
+}
+
+.name .left-right-arrow {
+	height: fit-content;
+	margin-top: 0px;
+}
+.name .left-right-arrow .arrow-left {
+	height: 20px;
+	width: 20px;
+	padding-bottom: 0px;
+}

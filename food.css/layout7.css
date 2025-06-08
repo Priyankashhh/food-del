@@ -1,0 +1,32 @@
+.end {
+	/* display: grid; */
+	background-color: peachpuff;
+	margin-top: 20px;
+	border-radius: 28px;
+	padding: 20px;
+}
+.end-sec {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.end-sec .mid-sec {
+	margin-right: 50px;
+}
+
+.social-media-icon {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.pinterest {
+	height: 20px;
+	width: 20px;
+	padding: 8px;
+	/* background-color: black; */
+}
+.copyright {
+	text-align: center;
+	font-size: 14px;
+}
