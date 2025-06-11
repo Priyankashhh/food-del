@@ -12,6 +12,7 @@
 .customer-profile {
 	height: 150px;
 	width: 120px;
+	border-radius: 28px;
 }
 .customer-review {
 	display: flex;

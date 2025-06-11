@@ -43,17 +43,22 @@
 	position: absolute;
 	justify-content: center;
 	align-items: center;
+	padding-left: 20px;
+	gap: 10px;
 	/* left: 120px; */
 }
 .detail1 {
-	left: 120px;
+	left: 0px;
 }
 .detail2 {
 	bottom: 120px;
 }
 .detail3 {
-	right: 20px;
+	right: 180px;
 }
 .detail4 {
-	bottom: 260px;
+	bottom: 270px;
+}
+.gallery-photos .direct {
+	padding-bottom: 20px;
 }

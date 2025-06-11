@@ -39,6 +39,7 @@
 	border: none;
 	padding-left: 10px;
 	padding-right: 50px;
+	outline: none;
 }
 .send-button {
 	color: white;
